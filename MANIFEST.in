@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include pramita *.css
+recursive-include pramita *.csv
+recursive-include pramita *.html
+recursive-include pramita *.ico
+recursive-include pramita *.js
+recursive-include pramita *.json
+recursive-include pramita *.md
+recursive-include pramita *.png
+recursive-include pramita *.py
+recursive-include pramita *.svg
+recursive-include pramita *.txt
+recursive-exclude pramita *.pyc
