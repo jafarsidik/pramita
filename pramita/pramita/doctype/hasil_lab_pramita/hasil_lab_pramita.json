@@ -1,0 +1,177 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "field:no_registrasi",
+ "creation": "2022-07-28 16:19:35.410291",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "regional_lokasi_layanan_section",
+  "regional",
+  "column_break_3",
+  "lokasi_layanan",
+  "data_pelanggan_section",
+  "no_registrasi",
+  "nama",
+  "dokter",
+  "pengirim",
+  "penanggung_jawab",
+  "alamat",
+  "column_break_12",
+  "tanggal_reg",
+  "no_pelanggan",
+  "jenis_kelamin",
+  "tanggal_lahir",
+  "no_hp",
+  "hasil_pemeriksaan_detail_section",
+  "table_19",
+  "keterangan"
+ ],
+ "fields": [
+  {
+   "fieldname": "regional_lokasi_layanan_section",
+   "fieldtype": "Section Break",
+   "label": "Regional Lokasi Layanan"
+  },
+  {
+   "fieldname": "regional",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Regional",
+   "options": "Regional",
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_3",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "lokasi_layanan",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Lokasi Layanan",
+   "options": "Lokasi Layanan",
+   "reqd": 1
+  },
+  {
+   "fieldname": "data_pelanggan_section",
+   "fieldtype": "Section Break",
+   "label": "Data Pelanggan"
+  },
+  {
+   "fieldname": "no_registrasi",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "No Registrasi",
+   "reqd": 1,
+   "unique": 1
+  },
+  {
+   "fieldname": "nama",
+   "fieldtype": "Data",
+   "label": "Nama"
+  },
+  {
+   "fieldname": "dokter",
+   "fieldtype": "Data",
+   "label": "Dokter"
+  },
+  {
+   "fieldname": "pengirim",
+   "fieldtype": "Data",
+   "label": "Pengirim"
+  },
+  {
+   "fieldname": "penanggung_jawab",
+   "fieldtype": "Data",
+   "label": "Penanggung Jawab"
+  },
+  {
+   "fieldname": "alamat",
+   "fieldtype": "Small Text",
+   "label": "Alamat"
+  },
+  {
+   "fieldname": "column_break_12",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "tanggal_reg",
+   "fieldtype": "Date",
+   "label": "Tanggal Reg"
+  },
+  {
+   "fieldname": "no_pelanggan",
+   "fieldtype": "Data",
+   "label": "No Pelanggan"
+  },
+  {
+   "fieldname": "jenis_kelamin",
+   "fieldtype": "Select",
+   "label": "Jenis Kelamin",
+   "options": "\nLaki - Laki\nPerempuan"
+  },
+  {
+   "fieldname": "tanggal_lahir",
+   "fieldtype": "Date",
+   "label": "Tanggal lahir"
+  },
+  {
+   "fieldname": "no_hp",
+   "fieldtype": "Data",
+   "label": "No HP"
+  },
+  {
+   "fieldname": "hasil_pemeriksaan_detail_section",
+   "fieldtype": "Section Break",
+   "label": "Hasil Pemeriksaan Detail"
+  },
+  {
+   "fieldname": "table_19",
+   "fieldtype": "Table",
+   "options": "Hasil Lab Pramita Detail"
+  },
+  {
+   "fieldname": "keterangan",
+   "fieldtype": "Text Editor",
+   "label": "Keterangan"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2022-07-28 16:45:03.401185",
+ "modified_by": "Administrator",
+ "module": "Pramita",
+ "name": "Hasil Lab Pramita",
+ "naming_rule": "By fieldname",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Guest",
+   "share": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "track_changes": 1,
+ "track_seen": 1,
+ "track_views": 1
+}

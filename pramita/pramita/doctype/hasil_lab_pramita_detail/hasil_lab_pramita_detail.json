@@ -1,0 +1,61 @@
+{
+ "actions": [],
+ "autoname": "autoincrement",
+ "creation": "2022-07-28 16:28:23.358577",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "jenis_pemeriksaan",
+  "hasil",
+  "nilai_rujukan",
+  "satuan",
+  "metode"
+ ],
+ "fields": [
+  {
+   "fieldname": "jenis_pemeriksaan",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "JENIS PEMERIKSAAN",
+   "reqd": 1
+  },
+  {
+   "fieldname": "hasil",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "HASIL"
+  },
+  {
+   "fieldname": "nilai_rujukan",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "NILAI RUJUKAN"
+  },
+  {
+   "fieldname": "satuan",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "SATUAN"
+  },
+  {
+   "fieldname": "metode",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "METODE"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2022-07-28 16:28:23.358577",
+ "modified_by": "Administrator",
+ "module": "Pramita",
+ "name": "Hasil Lab Pramita Detail",
+ "naming_rule": "Autoincrement",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
